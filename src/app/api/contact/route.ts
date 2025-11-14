@@ -10,8 +10,8 @@ const schema = z.object({
 });
 
 const resend = new Resend(process.env.RESEND_API_KEY);
-const toEmail = process.env.CONTACT_TO_EMAIL; // e.g. your Gmail
-const fromEmail = "Acme <onboarding@resend.dev>"; // no custom domain needed
+const toEmail = process.env.CONTACT_TO_EMAIL; 
+const fromEmail = "Portfolio Contact <onboarding@resend.dev>";
 
 export async function POST(req: Request) {
   try {

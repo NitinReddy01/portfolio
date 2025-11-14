@@ -1,4 +1,4 @@
-# Rishith S Portfolio
+# Nitin Gogula Portfolio
 
 A modern, responsive portfolio website built with Next.js, TypeScript, and Tailwind CSS showcasing my work as a Software & AI Developer.
 
@@ -86,111 +86,96 @@ npm start
 
 ## 💼 Featured Projects
 
-### 🍎 PackCheck
-**Allergen Detection Web App**
-- Built a web app that scans food product barcodes and flags allergens based on user preferences
-- Real-time alerts and comprehensive allergen database
-- **Tech Stack**: React, TypeScript, Node.js, Gemini API, Postgres, Supabase, Redis, Tailwind CSS
-- **[Live Demo](https://packcheck-yrlc.onrender.com/)** | **[GitHub](https://github.com/Rishith-S/video-transcoder)**
+### 💻 Coding Platform
+**Full Stack Code Execution Platform**
+- Built a secure online coding platform with Docker-sandboxed code execution
+- Implemented Executor-Worker architecture for distributed code evaluation
+- Supports multiple programming languages with isolated execution environments
+- **Tech Stack**: Go, Docker, PostgreSQL, Goose, REST APIs
+- **[GitHub](https://github.com/NitinReddy01/Coding-Platform)**
 
-### 🎬 ClipCraft
-**AI-Powered Math/Physics Visualizations**
-- Converts user prompts into LLM-generated math/physics visualizations using Manim
-- Scalable video pipeline with advanced prompt engineering
-- **Tech Stack**: React, TypeScript, Node.js, Docker, Postgres, Supabase, Redis, Tailwind CSS, Prompt Engineering
-- **[GitHub](https://github.com/Rishith-S/video-transcoder)**
+### 📝 Real-Time Collaborative Editor
+**Multi-User Document Editing Platform**
+- Enables multiple users to edit documents simultaneously with real-time synchronization
+- Implemented using Socket.IO and WebRTC for low-latency communication
+- Built with modern React architecture for seamless user experience
+- **Tech Stack**: Node.js, React, Socket.IO, WebRTC
+- **[Live Demo](https://sage-sunflower-a620d4.netlify.app)** | **[GitHub](https://github.com/NitinReddy01)**
 
-### 🎥 Video Transcoder
-**Scalable Video Processing System**
-- Built scalable video transcoding system using GCP Storage/Pub/Sub with FFmpeg
-- Multi-resolution output (360p-1080p) with cloud-native architecture
-- **Tech Stack**: GCP, FFmpeg, React, TypeScript, Node.js, Docker, Tailwind CSS
-- **[GitHub](https://github.com/Rishith-S/video-transcoder)**
-
-### 📝 YoutubenotesX
-**YouTube Video Note-Taking Platform**
-- Import YouTube videos, take timestamped notes, manage playlists, and collaborate
-- Real-time collaboration features with Supabase backend
-- **Tech Stack**: React, TypeScript, Node.js, Supabase, Tailwind CSS
-- **[Live Demo](https://youtubenotesx.onrender.com/)** | **[GitHub](https://github.com/Rishith-S/video-transcoder)**
-
-### ☕ Starbucks Frontend
-**Responsive Starbucks Clone**
-- Built a responsive and visually appealing frontend interface for Starbucks
-- Modern UI with smooth animations and mobile-first design
-- **Tech Stack**: React, TypeScript, Tailwind CSS
-- **[Live Demo](https://starbucks-m8ec.onrender.com/)** | **[GitHub](https://github.com/Rishith-S/starbucks)**
+### ♟️ Chess
+**Multiplayer Chess Application**
+- Cross-platform multiplayer chess game with Google OAuth authentication
+- Built with React Native/Expo for both web and mobile platforms
+- Native WebSocket implementation for real-time gameplay
+- Monorepo structure with Turborepo for efficient development
+- **Tech Stack**: TypeScript, React Native, Expo, Node.js, WebSocket, Passport.js, Turborepo
+- **[GitHub](https://github.com/NitinReddy01/chess)**
 
 ## 💻 Skills
 
 ### Programming Languages
-- **JavaScript/TypeScript** - Full-stack development
-- **Python** - AI/ML and backend development
-- **Java** - Enterprise applications
-- **C++** - System programming
+- **TypeScript/JavaScript** - Full-stack development
+- **Go** - Backend systems and microservices
+- **C++** - System programming and competitive coding
+- **Python** - AI/ML and scripting
 
 ### Frontend Technologies
 - **React/Next.js** - Modern web development
 - **React Native** - Cross-platform mobile development
-- **Tailwind CSS** - Utility-first styling
 - **Redux** - State management
+- **Tailwind CSS** - Utility-first styling
 
 ### Backend & Databases
-- **Node.js** - Server-side development
-- **PostgreSQL** - Relational database
-- **MongoDB** - NoSQL database
+- **Node.js/Express** - Server-side development
 - **Supabase** - Backend-as-a-Service
+- **PostgreSQL** - Relational database
+- **Prisma ORM** - Database toolkit
+- **Redis** - Caching and data structures
+- **Socket.IO** - Real-time communication
 
 ### Cloud & DevOps
-- **AWS** - Cloud infrastructure
+- **AWS** - Cloud infrastructure (ECS, EC2)
 - **Docker** - Containerization
+- **RabbitMQ** - Message queuing
 - **Git** - Version control
 
 ## 🏢 Professional Experience
 
 ### Associate Software Developer @ EKSAQ
-**Jun 2024 - Jan 2025**
-- Developed a Reading Comprehension Assessment App using React Native with over **10,000 active users**
-- Integrated Supabase for backend infrastructure and Azure Speech Service via AWS EC2
-- Deployed apps to App Store and hosted website using AWS Amplify
-- **Tech Stack**: TypeScript, Supabase, Postgres, React Native, React, Redux
+**June 2024 - Present** | Hyderabad, India
 
-### SDE Intern @ EKSAQ
-**Oct 2023 - May 2024**
-- Designed robust relational schemas and integrated Supabase Buckets for secure media handling
-- Enabled real-time group collaboration with CometChat SDK and role-based access control
-- **Tech Stack**: TypeScript, Supabase, Postgres, React Native, React, Redux
+- Designed and built multiple products from scratch, co-leading technical team with architecture, design, and development responsibilities
+- Delivered company's first MVP within a month using Supabase, React Native, and Node.js
+- Designed automated audio evaluation pipeline processing thousands of submissions monthly using Azure Speech SDK and RabbitMQ
+- Built real-time communication layer with WebSocket/Socket.IO for live interactions
+- Developed secure authentication service with single-session login enforcement
+- Optimized content delivery with Redis-based caching, significantly reducing database load
+- Architected scalable backend infrastructure for 5+ products with Express API Gateway
+- Dockerized services and managed infrastructure on AWS ECS/EC2
 
-### AI Software Engineer Intern @ Jediteck
-**May 2023 - Sept 2024**
-- Developed AI-driven document analysis system using FAISS for efficient similarity search
-- Built scalable React-based chat interface on AWS EC2 with Auto Scaling
-- **Tech Stack**: FAISS, React, AWS EC2, Auto Scaling, AWS S3, DynamoDB
+**Tech Stack**: Supabase, Node.js, Express, React Native, PostgreSQL, Prisma ORM, Redis, RabbitMQ, Socket.IO, Azure Speech SDK, Docker, AWS ECS/EC2
 
 ## 🎯 About Me
 
-Software & AI developer passionate about building innovative solutions. I specialize in TypeScript, Python, React, Node.js, TensorFlow, and PyTorch. My focus areas include:
+Software & AI developer passionate about building scalable, real-time applications. I specialize in TypeScript, Go, React, Node.js, and cloud-native architectures. My focus areas include:
 
-- 🤖 **AI/ML Development** - Building intelligent applications
+- 🏗️ **Backend Architecture** - Scalable microservices and distributed systems
 - 📱 **Cross-Platform Development** - React Native expertise
-- ☁️ **Cloud Architecture** - AWS and GCP solutions
+- ⚡ **Real-Time Systems** - WebSocket, Socket.IO for live communication
+- ☁️ **Cloud Infrastructure** - AWS solutions (ECS, EC2) and containerization
 - 🎨 **Modern Web Development** - React, Next.js, TypeScript
+
+### 🏆 Achievements
+- Global Rank 464 in TCS CodeVita Season 11
+- Knight Badge on LeetCode (Top 4.46% globally)
+- 3-star coder at CodeChef (nitin_0108)
 
 ## 📫 Contact
 
-- **LinkedIn**: [Your LinkedIn Profile]
-- **GitHub**: [Your GitHub Profile]
-- **Email**: [your.email@example.com]
+- **LinkedIn**: [https://www.linkedin.com/in/nitin-reddy-079628215]
+- **GitHub**: [https://github.com/NitinReddy01]
+- **Email**: [nitingogula@gmail.com]
 - **Portfolio**: [Your Portfolio URL]
+- **LeetCode**: [https://leetcode.com/u/nitingogula]
 
-## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
----
-
-⭐ **Star this repository if you found it helpful!**
