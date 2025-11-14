@@ -1,11 +1,10 @@
 "use client"
 
 import Image, { StaticImageData } from "next/image";
+import ChessPreview from "../../assets/chess-preview.svg";
 import CodingPlatformPreview from "../../assets/coding-platform-preview.svg";
 import TextEditorImage from "../../assets/text_editor.png";
-import ChessPreview from "../../assets/chess-preview.svg";
 import WebsiteLink from "../icons/websiteLink";
-import { useState } from "react";
 export const projects: ProjectProps[] = [
   {
     name: "Coding Platform",
@@ -100,9 +99,6 @@ export const HighlightedText = (text: string) => {
 };
 
 export default function Projects() {
-  const [selectedCategory, setSelectedCategory] = useState("All");
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-  const categories = ["All", "Full Stack"];
 
   return (
     <div className="project-card flex flex-col gap-4">
@@ -113,7 +109,7 @@ export default function Projects() {
         <div className="w-[75px] h-[6px] rounded-full bg-[#64ffda]" />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 items-center justify-center gap-4 w-full h-full">
-        {projects.filter((project) => selectedCategory === "All" || project.category === selectedCategory).map((project, index) => (
+        {projects.map((project, index) => (
           <div key={`index-${index}`} className="flex flex-col w-full h-full items-center justify-center"  >
             <ProjectCard
               key={index}

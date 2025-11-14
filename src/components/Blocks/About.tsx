@@ -11,7 +11,7 @@ export default function About() {
         <div className='flex flex-col p-[1px] rounded-lg my-4 bg-gradient-to-br from-neutral-600 via-neutral-800 to-neutral-800'>
           <div className='flex flex-col p-4 rounded-lg bg-neutral-900/80'>
             <p className='text-md font-semibold lg:text-[16px]'>
-            As a software developer at EKSAQ, I specialize in building scalable backend systems and real-time applications. I have a proven track record of delivering production-ready solutions from scratch, with expertise in distributed systems, cloud infrastructure, and full-stack development. I'm passionate about solving complex technical challenges and creating efficient, maintainable code.
+            As a software developer at EKSAQ, I specialize in building scalable backend systems and real-time applications. I have a proven track record of delivering production-ready solutions from scratch, with expertise in distributed systems, cloud infrastructure, and full-stack development. I&apos;m passionate about solving complex technical challenges and creating efficient, maintainable code.
             </p>
           </div>
         </div>

@@ -22,13 +22,14 @@ function ImpactMetric({ value, label, suffix = "" }: { value: number, label: str
       { threshold: 0.1 }
     );
 
-    if (ref.current) {
-      observer.observe(ref.current);
+    const currentRef = ref.current;
+    if (currentRef) {
+      observer.observe(currentRef);
     }
 
     return () => {
-      if (ref.current) {
-        observer.unobserve(ref.current);
+      if (currentRef) {
+        observer.unobserve(currentRef);
       }
     };
   }, []);
@@ -88,7 +89,7 @@ export default function AboutAndExperience() {
         <div className='flex flex-col p-[1px] rounded-lg my-4 bg-gradient-to-br from-neutral-600 via-neutral-800 to-neutral-800'>
           <div className='flex flex-col p-4 rounded-lg bg-neutral-900/80'>
             <p className='text-md font-semibold lg:text-[16px]'>
-              I'm a software developer passionate about building scalable backend systems and real-time applications. I thrive in fast-paced environments where I can take ownership of products from design to deployment. With expertise in distributed systems, cloud infrastructure, and full-stack development, I enjoy tackling complex technical challenges and creating efficient, maintainable solutions. I believe in writing clean code, continuous learning, and collaborating with teams to deliver impactful products.
+              I&apos;m a software developer passionate about building scalable backend systems and real-time applications. I thrive in fast-paced environments where I can take ownership of products from design to deployment. With expertise in distributed systems, cloud infrastructure, and full-stack development, I enjoy tackling complex technical challenges and creating efficient, maintainable solutions. I believe in writing clean code, continuous learning, and collaborating with teams to deliver impactful products.
             </p>
           </div>
         </div>
@@ -172,7 +173,7 @@ export default function AboutAndExperience() {
               <h3 className="text-lg font-bold text-[#ffffff] mb-3">Additional Achievements</h3>
               <ul className="list-disc list-inside space-y-2">
                 <li className="text-[14px] md:text-[16px] text-[#ffffff]">
-                  Delivered the company's <b>first MVP within a month</b>, demonstrating rapid backend setup using Supabase integrated with React Native and Node.js APIs
+                  Delivered the company&apos;s <b>first MVP within a month</b>, demonstrating rapid backend setup using Supabase integrated with React Native and Node.js APIs
                 </li>
                 <li className="text-[14px] md:text-[16px] text-[#ffffff]">
                   Optimized content delivery, <b>reducing database load and improving response times</b> through a Redis-based caching layer
