@@ -4,7 +4,7 @@ A modern, responsive portfolio website built with Next.js, TypeScript, and Tailw
 
 ## 🚀 Live Demo
 
-[Portfolio Website](https://your-portfolio-url.com) *(Add your deployed URL here)*
+[Portfolio Website](https://nitinreddygogula.vercel.app)
 
 ## ✨ Features
 
@@ -175,7 +175,7 @@ Software & AI developer passionate about building scalable, real-time applicatio
 - **LinkedIn**: [https://www.linkedin.com/in/nitin-reddy-079628215]
 - **GitHub**: [https://github.com/NitinReddy01]
 - **Email**: [nitingogula@gmail.com]
-- **Portfolio**: [Your Portfolio URL]
+- **Portfolio**: [https://nitinreddygogula.vercel.app]
 - **LeetCode**: [https://leetcode.com/u/nitingogula]
 
 
