@@ -23,7 +23,6 @@ export default function AwsIcon() {
         fontFamily="none"
         fontWeight="none"
         fontSize="none"
-        textAnchor="none"
         className="mix-blend-mode: normal"
       >
         <g transform="scale(5.33333,5.33333)">

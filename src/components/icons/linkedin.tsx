@@ -22,7 +22,6 @@ const IconLinkedin = () => (
       fontFamily="none"
       fontWeight="none"
       fontSize="none"
-      textAnchor="none"
       className="mix-blend-mode: normal"
     >
       <g transform="scale(8.53333,8.53333)">
