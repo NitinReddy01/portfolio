@@ -123,7 +123,7 @@ export default function AboutAndExperience() {
                       </div>
                     </div>
                   </div>
-                  <p className="text-sm md:text-md font-semibold text-neutral-400">June 2024 – Present</p>
+                  <p className="text-sm md:text-md font-semibold text-neutral-400">December 2023 – Present</p>
                 </div>
               </div>
             </div>

@@ -142,7 +142,7 @@ npm start
 ## 🏢 Professional Experience
 
 ### Associate Software Developer @ EKSAQ
-**June 2024 - Present** | Hyderabad, India
+**December 2023 - Present** | Hyderabad, India
 
 - Designed and built multiple products from scratch, co-leading technical team with architecture, design, and development responsibilities
 - Delivered company's first MVP within a month using Supabase, React Native, and Node.js
