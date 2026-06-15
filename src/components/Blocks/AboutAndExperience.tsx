@@ -89,7 +89,7 @@ export default function AboutAndExperience() {
         <div className='flex flex-col p-[1px] rounded-lg my-4 bg-gradient-to-br from-neutral-600 via-neutral-800 to-neutral-800'>
           <div className='flex flex-col p-4 rounded-lg bg-neutral-900/80'>
             <p className='text-md font-semibold lg:text-[16px]'>
-              I&apos;m a software developer passionate about building scalable backend systems and real-time applications. I thrive in fast-paced environments where I can take ownership of products from design to deployment. With expertise in distributed systems, cloud infrastructure, and full-stack development, I enjoy tackling complex technical challenges and creating efficient, maintainable solutions. I believe in writing clean code, continuous learning, and collaborating with teams to deliver impactful products.
+              Software Engineer with 2+ years building scalable, distributed backend systems. Co-led architecture for a School &amp; Learning Management System serving 30K+ users, built async pipelines processing 120,000+ audio submissions/month, and currently shipping production Go services. Hands-on across Node.js, Go, PostgreSQL, Redis, RabbitMQ, and AWS with a focus on system design, performance, and reliability.
             </p>
           </div>
         </div>
@@ -102,7 +102,7 @@ export default function AboutAndExperience() {
           <div className="w-[75px] h-[4px] rounded-full bg-[#64ffda]" />
         </div>
 
-        {/* Company Header */}
+        {/* Role 1 — Associate Software Developer */}
         <div className="rounded-3xl bg-gradient-to-br from-neutral-600 via-neutral-800 to-neutral-800 p-[1px] shadow-lg">
           <div className="flex flex-col gap-6 w-full h-full bg-neutral-900/80 rounded-3xl p-4 md:p-6">
 
@@ -123,7 +123,7 @@ export default function AboutAndExperience() {
                       </div>
                     </div>
                   </div>
-                  <p className="text-sm md:text-md font-semibold text-neutral-400">December 2023 – Present</p>
+                  <p className="text-sm md:text-md font-semibold text-neutral-400">Jun 2024 – Present</p>
                 </div>
               </div>
             </div>
@@ -131,64 +131,113 @@ export default function AboutAndExperience() {
             {/* Role Overview */}
             <div className="flex flex-col p-4 rounded-lg bg-neutral-900/60 border border-neutral-700">
               <p className="text-[14px] md:text-[16px] text-[#ffffff]">
-                Joined as an entry-level developer at a fast-paced startup and quickly evolved into a <b>technical co-leader</b>, driving architecture and development decisions across <b>5+ products</b>. Work in a <b>small, agile team</b> where I collaborate directly with founders and take ownership of end-to-end product delivery—from design to deployment. Mentor junior developers while coordinating task assignments and ensuring effective team communication.
+                Co-led an <b>8-member team</b> architecting scalable, RESTful microservices for a <b>School &amp; Learning Management System</b>, driving backend architecture decisions for <b>30K+ users</b> across cross-functional web and mobile teams.
               </p>
             </div>
 
             {/* Impact Metrics */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+              <ImpactMetric value={30} label="Users Served" suffix="K+" />
+              <ImpactMetric value={120} label="Monthly Audio Submissions" suffix="K+" />
               <ImpactMetric value={5} label="Products Built" suffix="+" />
-              <ImpactMetric value={12} label="Technologies Used" suffix="+" />
             </div>
 
             {/* Key Projects */}
             <div>
-              <h3 className="text-lg font-bold text-[#ffffff] mb-4">Key Projects & Contributions</h3>
+              <h3 className="text-lg font-bold text-[#ffffff] mb-4">Key Projects &amp; Contributions</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <KeyProject
                   title="Audio Evaluation Pipeline"
-                  description="Designed and implemented an automated system processing thousands of audio submissions monthly using Azure Speech SDK and RabbitMQ for distributed task handling."
-                  technologies={["Azure Speech SDK", "RabbitMQ", "Node.js", "Microservices"]}
+                  description="Scaled an audio evaluation pipeline with RabbitMQ, processing 120,000+ submissions/month with real-time throughput and zero message loss."
+                  technologies={["RabbitMQ", "Node.js", "Microservices", "Async Processing"]}
                 />
                 <KeyProject
-                  title="API Gateway Architecture"
-                  description="Architected scalable backend systems for 5+ products with Express-based API Gateway featuring auth, caching, and health-check middlewares."
-                  technologies={["Express", "Node.js", "Redis", "Middleware Design"]}
+                  title="Bulk School Onboarding Engine"
+                  description="Engineered an event-driven, async bulk-processing engine importing 500+ students and teachers per school from Excel with real-time job status updates and zero client-facing timeouts."
+                  technologies={["Node.js", "PostgreSQL", "Event-Driven", "Async"]}
                 />
                 <KeyProject
-                  title="Real-Time Communication System"
-                  description="Built a real-time communication layer supporting live updates across clients, migrating from custom WebSocket to Socket.IO for improved scalability."
-                  technologies={["Socket.IO", "WebSocket", "Real-time Sync"]}
+                  title="Redis Deduplication Layer"
+                  description="Designed a Redis-backed deduplication layer to enforce idempotency across distributed operations, visibly eliminating duplicate API calls on retried requests confirmed through production log analysis."
+                  technologies={["Redis", "Idempotency", "Distributed Systems"]}
                 />
                 <KeyProject
-                  title="Authentication Service"
-                  description="Developed a secure authentication system enforcing single-session logins across platforms through centralized token validation and session management."
-                  technologies={["JWT", "Session Management", "Security"]}
+                  title="CI/CD & Infrastructure"
+                  description="Dockerized services and managed deployments on AWS ECS and EC2; set up Bitbucket CI/CD with blue-green deployments and Nginx for zero-downtime releases across multiple environments."
+                  technologies={["Docker", "AWS ECS/EC2", "Nginx", "CI/CD", "Blue-Green"]}
                 />
               </div>
-            </div>
-
-            {/* Additional Achievements */}
-            <div>
-              <h3 className="text-lg font-bold text-[#ffffff] mb-3">Additional Achievements</h3>
-              <ul className="list-disc list-inside space-y-2">
-                <li className="text-[14px] md:text-[16px] text-[#ffffff]">
-                  Delivered the company&apos;s <b>first MVP within a month</b>, demonstrating rapid backend setup using Supabase integrated with React Native and Node.js APIs
-                </li>
-                <li className="text-[14px] md:text-[16px] text-[#ffffff]">
-                  Optimized content delivery, <b>reducing database load and improving response times</b> through a Redis-based caching layer
-                </li>
-                <li className="text-[14px] md:text-[16px] text-[#ffffff]">
-                  Streamlined deployments by <b>Dockerizing all services</b> and managing infrastructure on AWS ECS and EC2
-                </li>
-              </ul>
             </div>
 
             {/* Tech Stack */}
             <div>
               <h3 className="text-lg font-bold text-[#ffffff] mb-3">Technologies Used</h3>
               <div className="flex flex-row gap-2 flex-wrap">
-                {["Supabase", "Node.js", "Express", "React Native", "PostgreSQL", "Prisma ORM", "Redis", "RabbitMQ", "Socket.IO", "Azure Speech SDK", "Docker", "AWS ECS/EC2"].map((tech, index) => (
+                {["Node.js", "Express", "PostgreSQL", "Prisma ORM", "Redis", "RabbitMQ", "Docker", "AWS ECS/EC2", "Nginx"].map((tech, index) => (
+                  <div key={index} className="rounded-full bg-gray-800 w-auto px-3 py-1.5">
+                    <p className="font-bold text-teal-300 text-sm">{tech}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Role 2 — Software Engineering Intern */}
+        <div className="rounded-3xl bg-gradient-to-br from-neutral-600 via-neutral-800 to-neutral-800 p-[1px] shadow-lg">
+          <div className="flex flex-col gap-6 w-full h-full bg-neutral-900/80 rounded-3xl p-4 md:p-6">
+
+            {/* Role & Company */}
+            <div className="flex flex-col md:flex-row md:items-center md:justify-between">
+              <div className="flex flex-row items-center gap-4">
+                <div className="w-12 h-12 bg-white rounded-xl flex items-center justify-center">
+                  <Image src={EksaqLogo} alt="EKSAQ" width={100} height={100} className="rounded-md select-none" />
+                </div>
+                <div>
+                  <div className="flex flex-col md:flex-row md:items-center">
+                    <p className="text-lg md:text-xl font-bold text-[#ffffff]">Software Engineering Intern</p>
+                    <p className="text-lg md:text-xl font-bold text-[#ffffff] hidden md:flex">&nbsp;|&nbsp;</p>
+                    <div className="flex items-center gap-2">
+                      <p className="text-lg md:text-xl font-bold text-[#64ffda]">EKSAQ</p>
+                      <div className="w-5 h-5 cursor-pointer hover:scale-110 transition-transform" onClick={() => window.open('https://eksaq.in', 'mywindow')}>
+                        <ArrowIcon />
+                      </div>
+                    </div>
+                  </div>
+                  <p className="text-sm md:text-md font-semibold text-neutral-400">Dec 2023 – Jun 2024</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Role Overview */}
+            <div className="flex flex-col p-4 rounded-lg bg-neutral-900/60 border border-neutral-700">
+              <p className="text-[14px] md:text-[16px] text-[#ffffff]">
+                Developed an <b>English Language Assessment Platform</b> serving <b>1,000+ learners</b> with real-time pronunciation and fluency feedback via Supabase, React Native, and Redux.
+              </p>
+            </div>
+
+            {/* Key Projects */}
+            <div>
+              <h3 className="text-lg font-bold text-[#ffffff] mb-4">Key Projects &amp; Contributions</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <KeyProject
+                  title="Language Assessment Platform"
+                  description="Improved adaptive scoring by post-processing Azure Speech SDK outputs, lifting engagement and assessment accuracy by 50%."
+                  technologies={["Azure Speech SDK", "Supabase", "React Native", "Redux"]}
+                />
+                <KeyProject
+                  title="Authentication Service"
+                  description="Established authentication and authorization with Redis session caching, DB fallback, and strict single-session enforcement, preventing concurrent logins and reducing unauthorized access risk."
+                  technologies={["Redis", "JWT", "Session Management", "Node.js"]}
+                />
+              </div>
+            </div>
+
+            {/* Tech Stack */}
+            <div>
+              <h3 className="text-lg font-bold text-[#ffffff] mb-3">Technologies Used</h3>
+              <div className="flex flex-row gap-2 flex-wrap">
+                {["Supabase", "React Native", "Redux", "Azure Speech SDK", "Redis", "Node.js"].map((tech, index) => (
                   <div key={index} className="rounded-full bg-gray-800 w-auto px-3 py-1.5">
                     <p className="font-bold text-teal-300 text-sm">{tech}</p>
                   </div>

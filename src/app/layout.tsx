@@ -15,7 +15,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Nitin Reddy Gogula - Portfolio",
-  description: "Associate Software Developer at EKSAQ specializing in scalable backend systems, real-time applications, and distributed systems. Experienced with Node.js, React, Go, Docker, and AWS.",
+  description: "Software Engineer with 2+ years building scalable distributed backend systems — microservices, async pipelines, and cloud infra serving 30K+ users. Currently focused on Go; also experienced with Node.js, PostgreSQL, Redis, RabbitMQ, React, and AWS.",
 };
 
 export default function RootLayout({

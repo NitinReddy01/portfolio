@@ -32,7 +32,8 @@ export const projects: ProjectProps[] = [
   {
     name: "Real-Time Collaborative Editor",
     description: [
-      "Developed a real-time collaborative editor enabling simultaneous multi-user document editing via <b>Socket.IO</b> and <b>WebRTC</b> with low-latency synchronization.",
+      "Shipped a multi-user collaborative editor using <b>Socket.IO</b>, WebSockets, and <b>WebRTC</b> with low-latency synchronization.",
+      "Implemented real-time <b>cursor tracking</b> and <b>conflict-aware state management</b> across concurrent clients.",
     ],
     techStack: [
       "Node.js",
